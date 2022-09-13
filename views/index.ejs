@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>농부의 지도</title>
+</head>
+<body>
+    <form action="/" method="get">
+        <h1>"안녕하세요!! 농부의 지도 입니다."</h1>
+        <h2>"작업을 선택해주세요"</h2>
+        <input type="submit", name="user", value="검색">
+        <hr>
+        <input type="submit", name="farmer", value="입력">
+    </form>
+
+    
+    <form action="/farmer=입력" method="post">
+        <input type="button" value = "농장명 : ">
+        <input type="text" name="rn">
+        <input type="submit" value="농장명_입력">
+        <br>
+
+        <input type="button" value = "위치 : ">
+        <input type="text" name="where">
+        <input type="submit" value="위치_입력">
+        <br>
+
+        <input type="button" value="상품명 : ">
+        <input type="text" name="na">
+        <input type="submit" value="상품명_입력">
+        <br>
+
+        <input type="button" value="채소, 과일, 곡류중 한가지 입력">
+        <input type="text" name="kind">
+        <input type="submit" value="종류_입력">
+        <br>
+
+        <input type="button" value = "홍보링크">
+        <input type="url" name="url">
+        <input type="submit" value="링크_입력">
+        <br>
+    </form>
+    
+
+
+</body>
+</html>
